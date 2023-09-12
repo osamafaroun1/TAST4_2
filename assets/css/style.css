@@ -1,0 +1,148 @@
+#head {
+    background: 
+    linear-gradient(
+      rgba(200, 231, 243, 0.45), 
+      rgba(94, 196, 236, 0.45)
+    ),
+    url(.././imgs/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    max-width: 100vw;
+  }
+
+  .shadow {
+    position: absolute;  
+    background-color:  rgba(36, 180, 236, 0.45) ;
+    top: -70px;
+    left: 50px;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+}
+  #head .fixed-top{
+    height: 56px;
+    background-color:rgba(36, 180, 236, 0.45) ;
+  
+  }
+  .scrolled-offset{
+    margin-top: 56px;
+  }
+
+  /* li setting */
+
+  .contact-inforamtion li {
+    list-style: none;
+  
+  }
+  
+  .contact-inforamtion li a {
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  .more {
+    text-decoration: none;
+  }
+
+
+  
+  #Instructor {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+  #Right {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  
+  }
+  
+  #leaders {
+    background: 
+    linear-gradient(
+      rgba(200, 231, 243, 0.45), 
+      rgba(94, 196, 236, 0.45)
+    ),
+    url(.././imgs/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #News {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  }
+  
+  #Test {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  
+  }
+
+
+ .accordion-button::after {
+    display: none;
+}
+
+.accordion-button {
+  padding:0 !important;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  
+}
+
+
+
+  
+  /*SECTION (2) IMG MEDIA*/
+  
+  @media screen and (min-width:992px) {
+    .media img {
+      position: relative;
+      top: -70px;
+    }
+  
+  }
+  
+  @media screen and (max-width:991px) {
+    .media img {
+      position: static;
+    }
+  
+  }
+
+
+  /*footer and all section fontsize mobile*/
+  @media screen and (max-width:350px) {
+    footer p {
+      font-size: 0.9rem !important;
+    }
+  
+  }
+
+  @media screen and (max-width:350px) {
+    section p,h1,h2,h3,h4,h4,h6,span {
+      font-size: 1rem !important;
+    }
+  
+  }
+
+  /* video */
+  @media screen and (max-width:991px) {
+    .shadow{
+      top: -10px;
+      left: 0;
+    }
+   }
+ 
+  
+
+
+
+
+
+
+
+
